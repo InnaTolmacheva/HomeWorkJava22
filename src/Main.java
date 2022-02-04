@@ -9,7 +9,7 @@ public class Main {
 
         // начисляем бонусные рубли
         int bonus;
-        if (summa > limit) {
+        if (summa >= limit) {
             bonus = summa / amount;
         } else {
             bonus = 0;
